@@ -233,7 +233,7 @@ img {
     background: linear-gradient(90deg, var(--color-navy) 0%, var(--color-navy-light) 100%);
     box-shadow: var(--shadow-sm);
     position: sticky;
-    top: 60px;
+    top: 75px;
     z-index: 100;
 }
 
@@ -320,6 +320,11 @@ img {
 
 /* Desktop Navigation */
 @media (min-width: 768px) {
+    .navbar-menu {
+        position: sticky;
+        top: 80px;
+    }
+
     .navbar-menu .navbar-container {
         justify-content: flex-start;
         padding: 0 var(--spacing-lg);
